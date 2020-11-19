@@ -15,23 +15,23 @@ namespace webrequest
    
         static void Main(string[] args)
         {
-            //Program obj = new Program();
+           
             MethodsClass obj = new MethodsClass();
             obj.initilize();
             obj.loginTestCases();
-            //obj.DashboardPageLinks();
-            //obj.challengePageLinks();
-            //obj.TransactionPageLinks();
-            //obj.UserPageLinks();
-            //obj.CategoryPageLinks();
-            //obj.NotificationPageLinks();
-            //obj.CustomMessagePageLinks();
-            //obj.SettingPageLinks();
-            //obj.webrequestgetMethod();
-            //obj.transactionDetail();
-            //obj.alluserlink();
+            obj.DashboardPageLinks();
+            obj.challengePageLinks();
+            obj.TransactionPageLinks();
+            obj.UserPageLinks();
+            obj.CategoryPageLinks();
+            obj.NotificationPageLinks();
+            obj.CustomMessagePageLinks();
+            obj.SettingPageLinks();
+            obj.webrequestgetMethod();
+            obj.transactionDetail();
+            obj.alluserlink();
             obj.AllchallengeandDescriptionLinks();
-            //obj.challengeDescriptionPageLinks();
+            obj.challengeDescriptionPageLinks();
         }
 
     }
